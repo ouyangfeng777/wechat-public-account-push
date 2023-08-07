@@ -48,7 +48,16 @@ const USER_CONFIG = {
       ],
     },
   ],
-
+       //
+       {{date.DATA}}
+       //
+       {{remark.DATA}}
+      //
+       {{city.DATA}}的天气：{{weather.DATA}}
+      //最低气温：
+      {{low.DATA}}度
+      //最高气温：
+      {{high.DATA}}度
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '',
